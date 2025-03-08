@@ -1,9 +1,4 @@
 {
     "version": 2,
-    "builds": [
-        {
-            "src": "Dockerfile",
-            "use": "@vercel/docker"
-        }
-    ]
+    "builds": [{ "src": "api/index.php", "use": "@vercel/php" }]
 }
