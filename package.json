@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "postinstall": "composer install --no-dev --optimize-autoloader"
     },
     "devDependencies": {
         "axios": "^1.6.4",
